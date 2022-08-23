@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+        <meta name="author" content="leandro">
+        <meta name="description" content="pagina de login">
+        <meta name="keywords" content="login, teste">
+
+
+        <style>
+            
+            body{
+                background-color: rgb(160, 159, 159);
+            }
+            .formlogin{
+                font-size: 38px;
+                font-family: sans-serif;
+                width: 600px;
+                height: 500px;
+                display: block;
+                padding:15px;
+                margin: 100px auto 0;
+                text-transform: uppercase;
+                background-color: black;
+            }
+
+            .title{
+                color: rgb(160, 159, 159);
+                display: block;
+                text-align: center;
+                margin-bottom: 4px;
+                line-height: 2;
+            }
+
+
+            .P, .U{
+                color: rgb(160, 159, 159);
+            }
+
+            h1{
+                text-align: center;
+                font-size: 38px;
+                text-transform: uppercase;
+            }
+
+            #user, #pass, .button{
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+                height: 50px;
+            }
+
+            #user{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            #pass{
+                margin-top: 10px
+            }
+
+            .button{
+                margin-top: 10px;
+                font-size: 38px;
+                background-color: rgb(160, 159, 159);
+               
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <h1>Faça seu login</h1>
+        <form action="#" method="" class="formlogin">
+
+            <fieldset>
+
+                <legend class="title">Login</legend>
+
+                <label class="U" for="user">User</label>
+                <input type="text" id="user" name="name" autofocus>
+
+                <label class="P" for="pass">Senha</label>
+                <input type="password" id="pass" name="name">
+
+                <input type="submit" value="Login" class="button">
+
+            </fieldset>
+
+        </form>
+       
+    </body>
+</html>
