@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Sistema</title>
+        <meta charset="utf-8">
+        <meta name="author" content="ljbsvg">
+        <meta name="description" content="main page">
+        <meta name="keywords" content="principal, teste">
+        
+        <style>
+                body{
+                    font-family: sans-serif;
+                    background-color:rgb(160, 159, 159);
+                    width: 80%;
+                }
+
+                .bannerprincipal{
+                    height: 50px;
+                    background-position: right center;
+                    margin: auto;
+              
+                }
+
+                .bannerprincipal-content{
+                    text-align: center;
+                    color: white;
+                }
+
+                .bannerprincipal nav ul{
+                    text-align: left;
+                }
+
+                .bannerprincipal nav li{
+                    display: inline-block;
+                    list-style: none;
+                }
+
+                .bannerprincipal nav a{
+                    background-color: rgba(0, 0, 0, 0.15);
+                    display:block;
+                    padding: 15px;
+                    color:black;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                }
+
+                .bannerprincipal nav a:hover{
+                    background-color: rgba(0, 0, 0, 0.1 );
+                }
+
+                .container{
+                    margin: auto;
+                    padding: 40px;
+                }
+
+                #btn{
+                    background-color: rgba(0, 0, 0, 0.15);
+                    color:black;
+                    text-transform: uppercase;
+                    font-family: sans-serif;
+                    border: none;
+                    padding: 3px;
+                }
+
+        </style>
+
+    </head>
+
+    <body>
+        <div id="principal">
+            <header class="bannerprincipal">
+                <nav>
+                    <ul>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="register.html">Cadastre-se</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+
+            <main>
+                    <div id= "buttons" class="container">
+                        <div id="menu">
+                            <h1>Pesquisa de paginas HTML</h1>
+                            
+                            <label for="busca">Busque aqui</label><br>
+                            <input type="text" id="search" name="search">
+                            <button id="btn">Buscar</button>
+                            <button id="btn">Criar Pagina</button>
+                            <button id="btn">Apagar</button>
+                        </div>
+                    </div>
+            </main>
+        
+       
+    </body>
+</html>
