@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Cadastro</title>
+        <meta charset="utf-8">
+        <meta name="author" content="leandro">
+        <meta name="description" content="pagina de cadastro">
+        <meta name="keywords" content="cadastro, teste">
+
+            <style>
+
+        
+                body{
+                    background-color: rgb(160, 159, 159);
+                }
+
+                .formcad{
+                    font-size: 25px;
+                    font-family: sans-serif;
+                    width: 600px;
+                    height: 200px;
+                    display: block;
+                    padding:10px;
+                    background-color: black;
+            }
+                .U, .P, .confirm, .adres{
+                    color:rgb(160, 159, 159);
+                }
+
+                
+
+            </style>
+
+    </head>
+    <body>
+        <h1>Cadastre-se</h1>
+
+        <form action="#" method="get" target="_self" class="formcad">
+            
+            <fieldset>
+                <legend></legend>
+                    <label class="U">Nome</label>
+                    <input type="text" name="nome">
+                    <br>
+                    <label class="adres">e-mail</label>
+                    <input type="email" name="email">
+                    <br>
+                    <label class="P">Senha</label>
+                    <input type="password" name="pass" class="P">
+                    <br>
+                    <label class="confirm">Confirme a Senha</label>
+                    <input type="password" name="confirm pass" class="confirm">
+                    <br>
+
+             <input type="submit" value="Cadastrar" class="btn">
+             <input type="button" value="Cancelar">
+        </form>
+       
+    </body>
+</html>
